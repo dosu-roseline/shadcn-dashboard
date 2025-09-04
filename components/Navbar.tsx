@@ -1,5 +1,5 @@
 "use client";
-import { LogOut, Moon, Settings, Sun, User } from "lucide-react";
+import { CreditCard, LogOut, Moon, Settings, Sun, User } from "lucide-react";
 import Link from "next/link";
 import { AvatarFallback, Avatar, AvatarImage } from "./ui/avatar";
 import {
@@ -18,7 +18,7 @@ function Navbar() {
   const { setTheme } = useTheme();
 
   return (
-    <nav className="p-4 flex items-center justify-between">
+    <nav className="p-4 flex items-center justify-between sticky top-0 bg-background z-10">
       {/* LEFT */}
       <SidebarTrigger />
       {/* RIGHT */}
@@ -58,7 +58,14 @@ function Navbar() {
             <DropdownMenuLabel>My Account</DropdownMenuLabel>
             <DropdownMenuSeparator />
             <DropdownMenuItem>
-              <User className="h-[1.2rem] w-[1.2rem] mr-2" /> Profile
+              <Link href="/users/john-doe" className="flex items-center gap-2">
+                <User className="h-[1.2rem] w-[1.2rem] mr-2" /> Profile
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem>
+              <Link href="/payments" className="flex items-center gap-2">
+                <CreditCard className="h-[1.2rem] w-[1.2rem] mr-2" /> Payment
+              </Link>
             </DropdownMenuItem>
             <DropdownMenuItem>
               <Settings className="h-[1.2rem] w-[1.2rem] mr-2" /> Settings
