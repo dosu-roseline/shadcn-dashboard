@@ -43,7 +43,7 @@ export default function TodoList() {
             <div className="flex items-center gap-4">
               <Checkbox id="item1" checked />
               <label htmlFor="item1" className="text-sm text-muted-foreground">
-                Lorem Ipsum. "Neque porro quisquam est qui dolorem
+                Lorem Ipsum. Neque porro quisquam est qui dolorem
               </label>
             </div>
           </Card>
@@ -51,7 +51,7 @@ export default function TodoList() {
             <div className="flex items-center gap-4">
               <Checkbox id="item1" />
               <label htmlFor="item1" className="text-sm text-muted-foreground">
-                Lorem Ipsum. "Neque porro quisquam est qui dolorem
+                Lorem Ipsum. Neque porro quisquam est qui dolorem
               </label>
             </div>
           </Card>
@@ -59,7 +59,7 @@ export default function TodoList() {
             <div className="flex items-center gap-4">
               <Checkbox id="item1" />
               <label htmlFor="item1" className="text-sm text-muted-foreground">
-                Lorem Ipsum. "Neque porro quisquam est qui dolorem
+                Lorem Ipsum. Neque porro quisquam est qui dolorem
               </label>
             </div>
           </Card>
@@ -67,7 +67,7 @@ export default function TodoList() {
             <div className="flex items-center gap-4">
               <Checkbox id="item1" checked />
               <label htmlFor="item1" className="text-sm text-muted-foreground">
-                Lorem Ipsum. "Neque porro quisquam est qui dolorem
+                Lorem Ipsum. Neque porro quisquam est qui dolorem
               </label>
             </div>
           </Card>
@@ -75,7 +75,7 @@ export default function TodoList() {
             <div className="flex items-center gap-4">
               <Checkbox id="item1" />
               <label htmlFor="item1" className="text-sm text-muted-foreground">
-                Lorem Ipsum. "Neque porro quisquam est qui dolorem
+                Lorem Ipsum. Neque porro quisquam est qui dolorem
               </label>
             </div>
           </Card>
@@ -83,7 +83,7 @@ export default function TodoList() {
             <div className="flex items-center gap-4">
               <Checkbox id="item1" checked />
               <label htmlFor="item1" className="text-sm text-muted-foreground">
-                Lorem Ipsum. "Neque porro quisquam est qui dolorem
+                Lorem Ipsum. Neque porro quisquam est qui dolorem
               </label>
             </div>
           </Card>
@@ -91,7 +91,7 @@ export default function TodoList() {
             <div className="flex items-center gap-4">
               <Checkbox id="item1" />
               <label htmlFor="item1" className="text-sm text-muted-foreground">
-                Lorem Ipsum. "Neque porro quisquam est qui dolorem
+                Lorem Ipsum. Neque porro quisquam est qui dolorem
               </label>
             </div>
           </Card>
@@ -99,7 +99,7 @@ export default function TodoList() {
             <div className="flex items-center gap-4">
               <Checkbox id="item1" />
               <label htmlFor="item1" className="text-sm text-muted-foreground">
-                Lorem Ipsum. "Neque porro quisquam est qui dolorem
+                Lorem Ipsum. Neque porro quisquam est qui dolorem
               </label>
             </div>
           </Card>
