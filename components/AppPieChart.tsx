@@ -4,6 +4,13 @@ import { Label, Pie, PieChart } from "recharts";
 import { ChartContainer, ChartTooltip, ChartTooltipContent } from "./ui/chart";
 import { TrendingUp } from "lucide-react";
 
+type ChartConfig = {
+  [key: string]: {
+    label: string;
+    color?: string;
+  };
+};
+
 const chartConfig = {
   visitors: {
     label: "Visitors",
